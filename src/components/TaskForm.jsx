@@ -28,6 +28,7 @@ function TaskForm() {
           value={title}
           className="bg-slate-300 p-3 w-full mb-2"
           autoFocus
+          required
         />
         <textarea
           placeholder="Escribe la descripcion de la tarea"
@@ -36,6 +37,7 @@ function TaskForm() {
           }}
           value={description}
           className="bg-slate-300 p-3 w-full mb-2"
+          required
         ></textarea>
         <button className="bg-indigo-500 px-3 py-1 text-white">Guardar</button>
       </form>
